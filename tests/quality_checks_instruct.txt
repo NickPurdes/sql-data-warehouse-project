@@ -76,7 +76,7 @@ CASE
 				ELSE sls_price  -- Derive price if original value is invalid
 			END AS sls_price
 
-10 Видалення частини строк
+10 Видалення частини рядків
 
 CASE
 				WHEN cid LIKE 'NAS%' THEN SUBSTRING(cid, 4, LEN(cid)) -- Remove 'NAS' prefix if present
